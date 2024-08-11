@@ -1,0 +1,143 @@
+* {
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+  color: white;
+}
+
+.container {
+  background-color: rgba(12, 70, 12, 0.768);
+  width: 98%;
+  margin: 10px auto; /* Center the container */
+  border: 3px solid rgba(12, 70, 12, 0.768);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: rgba(12, 70, 12, 0.768); /* Adjust background color */
+}
+
+.header a {
+  color: white;
+  margin-right: 15px;
+  height: 30px;
+  line-height: 30px; /* Center the text vertically */
+  padding: 0 10px; /* Add padding for better clickability */
+}
+
+.build {
+  display: flex;
+  margin-top: 60px; /* Adjust margin-top to accommodate fixed header */
+}
+
+.left {
+  width: 30%;
+  text-align: center; /* Center text */
+}
+
+.left img {
+  background-color: rgb(18, 123, 104);
+  width: 80%; /* Adjust image width */
+  margin: 0 auto 15px; /* Center the image and add some margin */
+}
+
+hr {
+  background-color: whitesmoke;
+  height: 4px;
+  margin: 0;
+  border: none; /* Remove border */
+}
+
+.right {
+  background-color: rgb(48, 52, 51);
+  width: 70%;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 30px; /* Reduce margin-top */
+  margin-bottom: 15px;
+}
+
+.left p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px; /* Reduce font size */
+  text-align: center;
+  margin: 15px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust card layout */
+  gap: 10px; /* Add gap between cards */
+}
+
+.card {
+  width: 100%; /* Set card width */
+}
+
+#product {
+  width: 100%; /* Set full width */
+}
+
+.product h3 {
+  color: black;
+  text-align: center;
+}
+
+.product {
+  width: 100%; /* Set full width */
+}
+
+ul {
+  margin-left: 30px;
+  font-size: 16px; /* Reduce font size */
+}
+
+.productss {
+  display: flex;
+  flex-wrap: wrap; /* Allow products to wrap */
+  justify-content: space-around; /* Space products evenly */
+  margin: 10px auto; /* Center products */
+}
+
+.services {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.art {
+  background-color: black;
+}
+
+.equipment {
+  display: flex;
+  flex-wrap: wrap; /* Allow equipment to wrap */
+  justify-content: space-around; /* Space equipment evenly */
+  margin: 50px auto; /* Center equipment */
+}
+
+.equipment img {
+  width: 100%;
+  max-width: 200px; /* Limit max width of images */
+}
+
+.equipment img p {
+  width: 100%;
+  text-align: center; /* Center text */
+}
